@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>PENDAFTARAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>PENDAFTARAN CASIS</h1>
+    <div class="box">
+    <form action="proses.php" method="post" enctype="multipart/form-data">
+        <div>
+            <label>Nama:</label>
+            <input type="text" name="nama">
+        </div>
+        <div style="margin-top:10px">
+                <legend>Jurusan</legend>
+                <label>
+                    <input type="checkbox" name="jurusan" value="RPL" />Darat
+                </label>
+                <label>
+                    <input type="checkbox" name="jurusan" value="BDP" />Laut
+                </label>
+                <label>
+                    <input type="checkbox" name="jurusan" value="OTKP" />Udara
+                </label>
+        </div>
+        <div style="margin-top:10px">
+            <label>Nama Ayah</label>
+            <input type="text" name="nama_ayah">
+        </div>
+        <div style="margin-top:10px">
+            <label>Nama Ibu</label>
+            <input type="text" name="nama_ibu">
+        </div>
+        <div style="margin-top:10px">
+            <label>Alamat</label>
+            <input type="text" name="alamat">
+        </div>
+        <div style="margin-top:10px">
+            <label>Foto</label>
+            <input type="file" name="foto">
+        </div>
+        <div style="margin-top:10px">
+            <button>Submit</button>
+        </div>
+    </form>
+</div>
+</body>
+
+</html>
